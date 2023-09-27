@@ -1,6 +1,6 @@
 package pe.edu.dps.patterns.creational.builder;
 
-public class Car implements IBuilder {
+public class Car implements Builder {
     private Product product = new Product();
 
     @Override

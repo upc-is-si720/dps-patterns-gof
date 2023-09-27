@@ -1,6 +1,6 @@
 package pe.edu.dps.patterns.creational.builder;
 
-public class Airplain implements IBuilder{
+public class Airplain implements Builder {
     private Product product = new Product();
 
     @Override

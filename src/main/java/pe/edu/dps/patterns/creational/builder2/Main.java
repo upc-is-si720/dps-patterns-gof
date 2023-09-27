@@ -17,7 +17,25 @@ public class Main {
 
         User jose = new UserBuilder2().name("Jose").nick("jose345").build();
 
+        User maria = new UserBuilder()
+                .profession("QE")
+                .name("Carlos").tag("aa")
+                .phone(123654).build();
+
 
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

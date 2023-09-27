@@ -7,9 +7,9 @@ public class Main {
 
         Director director = new Director();
 
-        IBuilder carBuilder = new Car();
-        IBuilder motorBuilder = new MotorCycle();
-        IBuilder airBuilder = new Airplain();
+        Builder carBuilder = new Car();
+        Builder motorBuilder = new MotorCycle();
+        Builder airBuilder = new Airplain();
 
         // Making Car
         director.construct(carBuilder);

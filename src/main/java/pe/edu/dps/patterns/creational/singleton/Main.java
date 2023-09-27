@@ -1,8 +1,14 @@
 package pe.edu.dps.patterns.creational.singleton;
 
 public class Main {
-    public static void main(String Args[]) {
+    public static void main(String[] args) {
+        Solitario solitario = Solitario.getInstance();
+        Solitario solitario2 = Solitario.getInstance();
 
+    }
+
+
+/*
         Connection conn = Connection.getInstance();
         Connection conn1 = Connection.getInstance();
         Connection conn2 = Connection.getInstance();
@@ -23,5 +29,5 @@ public class Main {
 
         System.out.println(Connection.contador);
 
-    }
+    }*/
 }
