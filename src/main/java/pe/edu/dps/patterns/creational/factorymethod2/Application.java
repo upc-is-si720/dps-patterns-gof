@@ -17,6 +17,6 @@ public class Application {
     dialog.render();
   }
   public String readApplicationOS() {
-    return "Mobile";
+    return "Windows";
   }
 }

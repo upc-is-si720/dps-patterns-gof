@@ -7,14 +7,14 @@ public class Client {
     Tv tv = new Tv();
     Device dtv = new Tv();
 
-    Remote remote = new Remote(tv);
+    Remote remote = new Remote(radio);
     remote.togglePower();
     remote.channelUp();
     remote.channelDown();
 
     AdvancedRemote advancedRemote = new AdvancedRemote(tv);
     advancedRemote.togglePower();
-    advancedRemote.volumenDown();
+    //advancedRemote.volumenDown();
     advancedRemote.menu();
     advancedRemote.mute();
   }

@@ -10,7 +10,12 @@ public class Component implements Handler {
     @Override
     public void handle(String request) {
         if (this.next != null) {
+            System.out.println("--Derivandolo--");
             next.handle(request);
         }
+        else {
+            System.out.println("No hay nadie que te pueda atender");
+        }
+
     }
 }
