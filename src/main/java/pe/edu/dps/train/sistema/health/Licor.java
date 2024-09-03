@@ -1,4 +1,4 @@
-package pe.edu.dps.train.sistema;
+package pe.edu.dps.train.sistema.health;
 
 public class Licor implements Alimento {
     @Override

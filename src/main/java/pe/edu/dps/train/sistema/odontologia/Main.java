@@ -1,6 +1,6 @@
 package pe.edu.dps.train.sistema.odontologia;
 
-import pe.edu.dps.train.sistema.Tooth;
+import pe.edu.dps.train.sistema.health.Tooth;
 
 public class Main {
     public static void main(String[] args) {

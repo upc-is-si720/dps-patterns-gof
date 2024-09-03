@@ -1,4 +1,4 @@
-package pe.edu.dps.train.sistema;
+package pe.edu.dps.train.sistema.health;
 
 public class Fruta implements Alimento {
     private String name;

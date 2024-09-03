@@ -1,4 +1,4 @@
-package pe.edu.dps.train.sistema;
+package pe.edu.dps.train.sistema.health;
 
 import pe.edu.dps.train.sistema.odontologia.Color;
 
