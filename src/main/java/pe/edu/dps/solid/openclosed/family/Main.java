@@ -1,12 +1,7 @@
-package pe.edu.dps.solid.openclosed;
-
-import pe.edu.dps.solid.single.Book;
+package pe.edu.dps.solid.openclosed.family;
 
 public class Main {
     public static void main(String[] args) {
-        BuyBook buyBook = new SubBuyBook();
-        buyBook.addBook(new Book());
-        buyBook.addBook(new Book());
 
         Condori condori = new Condori();
         Hitler hitler = new Hitler();

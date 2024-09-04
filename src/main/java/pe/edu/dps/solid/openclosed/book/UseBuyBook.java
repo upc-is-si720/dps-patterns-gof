@@ -1,4 +1,4 @@
-package pe.edu.dps.solid.openclosed;
+package pe.edu.dps.solid.openclosed.book;
 
 public class UseBuyBook {
     private BuyBook buyBook;

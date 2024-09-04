@@ -5,6 +5,6 @@ public class Main {
     // Injección de dependencia
     // Cuando se reeemplaza una Interfaz por una clase
     Order order = new Order(new Ground());
-    order.getShippingDate();
+    System.out.println(order.getShippingDate());
   }
 }

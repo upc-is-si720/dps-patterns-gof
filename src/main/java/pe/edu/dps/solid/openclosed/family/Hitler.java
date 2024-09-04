@@ -1,4 +1,4 @@
-package pe.edu.dps.solid.openclosed;
+package pe.edu.dps.solid.openclosed.family;
 
 public class Hitler implements Aleman {
     @Override

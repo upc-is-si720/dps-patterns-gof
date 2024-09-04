@@ -1,5 +1,6 @@
 package pe.edu.dps.solid.openclosed.shipping;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class Ground implements Shipping {
@@ -10,6 +11,6 @@ public class Ground implements Shipping {
 
   @Override
   public Date getDate(Order order) {
-    return null;
+    return Calendar.getInstance().getTime();
   }
 }

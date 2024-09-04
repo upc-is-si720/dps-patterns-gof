@@ -1,6 +1,5 @@
-package pe.edu.dps.solid.openclosed;
+package pe.edu.dps.solid.openclosed.book;
 
-import pe.edu.dps.solid.single.Book;
 
 public class BuyBook {
     private int stock;
