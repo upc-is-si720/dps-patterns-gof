@@ -11,6 +11,8 @@ public class SUVBuilder implements Builder {
   @Override
   public void reset() {
     System.out.println("Resetting");
+    this.suv = new SUV();
+    this.suv.setFeature("SUV");
   }
 
   @Override
@@ -20,9 +22,9 @@ public class SUVBuilder implements Builder {
   }
 
   @Override
-  public void setEngine(String Engine) {
+  public void setEngine(String engine) {
     String feature = suv.getFeature();
-    this.suv.setFeature(feature + ", engine: 1.6");
+    this.suv.setFeature(feature + ", engine: " + engine);
   }
 
   @Override
@@ -37,7 +39,7 @@ public class SUVBuilder implements Builder {
     this.suv.setFeature(feature + ", gps: NO");
   }
 
-  public SUV getResult() {
+  public SUV getProduct() {
     return this.suv;
   }
 }

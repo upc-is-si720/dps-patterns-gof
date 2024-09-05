@@ -10,6 +10,8 @@ public class AutoBuilder implements Builder {
   @Override
   public void reset() {
     System.out.println("Resetting");
+    this.auto = new Auto();
+    this.auto.setFeature("AUTO");
   }
 
   @Override
@@ -19,9 +21,9 @@ public class AutoBuilder implements Builder {
   }
 
   @Override
-  public void setEngine(String Engine) {
+  public void setEngine(String engine) {
     String feature = auto.getFeature();
-    this.auto.setFeature(feature + ", engine: 1.2");
+    this.auto.setFeature(feature + ", engine: " + engine);
   }
 
   @Override
@@ -36,7 +38,7 @@ public class AutoBuilder implements Builder {
     this.auto.setFeature(feature + ", gps: no tiene");
   }
 
-  public Auto getResult() {
+  public Auto getProduct() {
     return this.auto;
   }
 }
