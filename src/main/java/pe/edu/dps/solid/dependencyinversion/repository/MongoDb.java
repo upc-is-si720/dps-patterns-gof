@@ -1,4 +1,6 @@
-package pe.edu.dps.solid.dependencyinversion;
+package pe.edu.dps.solid.dependencyinversion.repository;
+
+import pe.edu.dps.solid.dependencyinversion.service.Database;
 
 public class MongoDb implements Database {
     @Override

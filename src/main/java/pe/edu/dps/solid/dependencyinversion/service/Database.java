@@ -1,4 +1,4 @@
-package pe.edu.dps.solid.dependencyinversion;
+package pe.edu.dps.solid.dependencyinversion.service;
 
 public interface Database {
   void insert();

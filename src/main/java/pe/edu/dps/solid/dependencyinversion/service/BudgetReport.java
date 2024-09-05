@@ -1,21 +1,23 @@
-package pe.edu.dps.solid.dependencyinversion;
+package pe.edu.dps.solid.dependencyinversion.service;
 
 import java.util.Date;
 
 public class BudgetReport {
-  private final Database database;
+  private final Database database;  // interface
 
+  // Dependency Injection
   public BudgetReport(Database database) {
     this.database = database;
   }
 
   public void open(Date date) {
-    database.connect();
+    this.database.connect();
     System.out.println("Open report");
   }
 
   public void save() {
     System.out.println("Save report");
-    database.insert();
+    this.database.insert();
+    this.database.disconnect();
   }
 }
