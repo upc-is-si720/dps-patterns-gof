@@ -2,8 +2,9 @@ package pe.edu.dps.patterns.creational.factorymethod2;
 
 public class Application {
   private Dialog dialog;
+
   public void initialize() {
-    String os = readApplicationOS();
+    String os = this.readApplicationPlatform();
     if (os.equals("Windows")) {
       dialog = new WindowsDialog();
     } else if (os.equals("Web")) {
@@ -12,11 +13,11 @@ public class Application {
       dialog = new MobileDialog();
     }
   }
-  public void main() {
+  public void run() {
     this.initialize();
     dialog.render();
   }
-  public String readApplicationOS() {
-    return "Windows";
+  public String readApplicationPlatform() {
+    return "Web";
   }
 }

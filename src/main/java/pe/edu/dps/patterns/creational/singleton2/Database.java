@@ -9,6 +9,7 @@ public class Database {
   public static Database getInstance() {
     if (Database.instance == null) {
       Database.instance = new Database();
+      System.out.println("Instance created ...!");
       System.out.println("Database connected ...!");
     }
     return Database.instance;
