@@ -2,8 +2,8 @@ package pe.edu.dps.patterns.structural.adapter4;
 
 public class XmlFormat implements Format {
     @Override
-    public void serializar() {
-        System.out.println("Serialziando XML");
+    public void serializer() {
+        System.out.println("Serializando XML");
     }
 
     @Override

@@ -19,7 +19,7 @@ public class AdapterFormat implements Format {
     }
 
     @Override
-    public void serializar() {
+    public void serializer() {
 
     }
 }

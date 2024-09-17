@@ -2,7 +2,7 @@ package pe.edu.dps.patterns.structural.adapter4;
 
 public class WsdlFormat implements Format {
     @Override
-    public void serializar() {
+    public void serializer() {
         System.out.println("Serializando WSDL");
     }
 
