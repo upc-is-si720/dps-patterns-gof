@@ -2,6 +2,7 @@ package pe.edu.dps.patterns.structural.bridge4;
 
 public class Remote {
   private Device device;
+
   public Remote(Device device) {  // dependency Injection
     this.device = device;
   }

@@ -1,6 +1,7 @@
 package pe.edu.dps.patterns.structural.bridge4;
 
 public class Tv implements Device{
+
   @Override
   public boolean isEnabled() {
     return false;
